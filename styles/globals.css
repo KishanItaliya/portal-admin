@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .side-button-container {
+      @apply hover:bg-[#111827] hover:text-white hover:font-bold hover:shadow-lg hover:shadow-blue-500/30 cursor-pointer w-full rounded-md p-2 transition transform duration-100 ease-out;
+    }
+
+    .activeLink {
+      @apply bg-white text-[#111827] shadow-lg shadow-blue-500/40 cursor-pointer w-full rounded-md p-2 font-bold;
+    }
+}
